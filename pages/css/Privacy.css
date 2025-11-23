@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-family: sans-serif;
+    /* font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    box-sizing: border-box;
+}
+
+.bttb {
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    position: fixed;
+    width: 100px;
+    display: flex;
+    height: 40px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h01 {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.bttb a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.header img {
+    width: 108px;
+    height: 23px;
+}
+
+.nav {
+    display: flex;
+}
+
+.action {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.action a {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.blank {
+    height: 40px;
+}
+
+.privacytittle {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacytittle h2 {
+    width: 100%;
+    margin: 10px auto;
+    justify-content: center;
+    display: flex;
+}
+
+.privacytittle p {
+    width: 100%;
+    margin: 5px auto;
+    justify-content: center;
+    display: flex;
+}
+
+.privacytittle a {
+    width: 100%;
+    margin: 5px auto;
+    justify-content: center;
+    display: flex;
+}
+
+.tittleaction {
+    margin-left: 80%;
+}
+
+.tittleaction a {
+    margin-left: 10px;
+    color: #0067b8;
+}
+
+.privacycontent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacycontent h2 {
+    color: black;
+    padding-bottom: 20px;
+}
+
+.privacycontent p a {
+    color: #0067b8;
+    text-decoration: underline;
+}
+
+.contentparagraph p {
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.contentparagraph li {
+    margin-left: 50px;
+}
+
+.content01 {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.list ul {
+    width: 100%;
+    list-style-type: none;
+    margin-left: 70px;
+}
+
+.list li {
+    padding-bottom: 20px;
+}
+
+.list a {
+    color: #0067b8;
+}
+
+/* .hr {
+    display: flex;
+    width: 5px;
+    height: 100%;
+    background-color: gray;
+} */
+
+.p01 {
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.p01 h2 {
+    font-size: small;
+}
+
+.p01 p {
+    padding-top: 10px;
+    font-size: small;
+}
+
+.p01 a {
+    color: #0067b8;
+    text-decoration: underline;
+}
+
+.content02 {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    margin-right: 70px;
+}
+
+.pctags a {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100px;
+    font-size: small;
+    color: #0067b8;
+}
+
+b {
+    font-weight: 700;
+}
+
+.footer {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(201, 199, 199);
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h1 {
+    font-size: 15px;
+}
+
+.footer a {
+    color: #616161;
+}
+
+.footer img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 100;
+}
