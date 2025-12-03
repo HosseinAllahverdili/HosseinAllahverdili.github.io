@@ -125,12 +125,12 @@ body {
   text-decoration: underline;
 }
 footer a {
-  color: #494848;
-  text-decoration: none;
+  color: #494848 !important;
+  text-decoration: none !important;
 }
 footer a:hover {
-  color: #000;
-  text-decoration: none;
+  color: #000 !important;
+  text-decoration: none !important;
 }
 .lg-footer-links .accordion-button {
   background-color: #e7ddcc;
@@ -145,28 +145,28 @@ footer a:hover {
   font-size: 0.9rem;
 }
 .footer-mobile-accordion .accordion-item {
-  background-color: #e7ddcc;
-  border: none;
+  background-color: #e7ddcc !important;
+  border: none !important;
 }
 .footer-mobile-accordion .accordion-button {
-  background-color: #e7ddcc;
-  color: #000;
-  box-shadow: none;
-  border: none;
+  background-color: #e7ddcc !important;
+  color: #000 !important;
+  box-shadow: none !important;
+  border: none !important;
   font-weight: 600;
 }
 .footer-mobile-accordion .accordion-button:not(.collapsed) {
-  color: #000;
-  background-color: #e7ddcc;
-  box-shadow: none;
+  color: #000 !important;
+  background-color: #e7ddcc !important;
+  box-shadow: none !important;
 }
 .footer-mobile-accordion .accordion-body {
-  background-color: #e7ddcc;
-  color: #000;
+  background-color: #e7ddcc !important;
+  color: #000 !important;
 }
 .footer-mobile-accordion .accordion-item + .accordion-item {
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.15) !important;
 }
 .footer-mobile-accordion .accordion-button::after {
-  filter: invert(0);
+  filter: invert(0) !important;
 }
