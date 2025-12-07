@@ -1,24 +1,16 @@
 {
-  "name": "hossein-lg.github.io",
+  "name": "p01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HosseinAllahverdili/Hossein-LG.github.io.git"
+    "scss": "sass --watch ./scss/style.scss ./css/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/HosseinAllahverdili/Hossein-LG.github.io/issues"
-  },
-  "homepage": "https://github.com/HosseinAllahverdili/Hossein-LG.github.io#readme",
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "scss": "^0.2.4"
   }
 }
